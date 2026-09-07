@@ -1,0 +1,19 @@
+# Editor and container state
+.vscode-remote/
+.devcontainer/.cache/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.swp
+.cache/
+
+# Kivy user-interface cache; unrelated to Xime_rpc
+.kivy/logs/
+.kivy/icon/
+
+# Gradle daemon bookkeeping; build dependencies remain available
+.gradle/daemon/
+.gradle/native/
+.gradle/notifications/
+.gradle/.tmp/
